@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Whose Intelligence? — Workshop Site
+
+A workshop site for **"Whose Intelligence? — Building Agentic AI in Africa"** at Deep Learning Indaba 2026, hosted by ML Collective.
+
+Built with [Next.js](https://nextjs.org) (App Router), TypeScript, and [Tailwind CSS v4](https://tailwindcss.com).
+
+## Pages
+
+- `/` — Home (hero, abstract, at-a-glance, countdown)
+- `/schedule` — Workshop schedule
+- `/speakers` — Speaker lineup
+- `/organizers` — Organizing team
+- `/sponsors` — Sponsor information
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+All pages are statically prerendered.
 
-To learn more about Next.js, take a look at the following resources:
+## Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4 with `@theme inline` design tokens
+- **Fonts**: Self-hosted via `next/font/google` (Source Serif 4, Inter, JetBrains Mono)
+- **Assets**: SVG/PNG in `public/assets/`
