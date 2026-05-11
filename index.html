@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Whose Intelligence? — Building Agentic AI in Africa · DLI 2026</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+<div id="chrome"></div>
+
+<main>
+  <!-- ============== HERO ============== -->
+  <section style="padding:64px 0 48px;border-bottom:1px solid var(--rule);">
+    <div class="container" style="text-align:center;padding-top:88px;padding-bottom:96px;">
+      <h1 class="display" style="margin:0 auto;max-width:14ch;">
+        Whose <em style="font-style:italic;color:var(--purple);">intelligence?</em>
+      </h1>
+      <p class="lede" style="margin:32px auto 0;font-size:clamp(32px, 4.2vw, 52px);line-height:1.18;max-width:22ch;letter-spacing:-0.015em;">
+        Building Agentic AI in Africa without frontier-model dependency.
+      </p>
+
+      <div id="countdown" class="countdown" aria-label="Time until workshop">
+        <div class="cd-item"><span class="cd-num tnum" data-cd="d">--</span><span class="cd-lbl">Days</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-item"><span class="cd-num tnum" data-cd="h">--</span><span class="cd-lbl">Hours</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-item"><span class="cd-num tnum" data-cd="m">--</span><span class="cd-lbl">Minutes</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-item"><span class="cd-num tnum" data-cd="s">--</span><span class="cd-lbl">Seconds</span></div>
+      </div>
+      <p class="cd-target muted small" style="display:none;">Until 6 August 2026</p>
+
+      <div style="display:flex;gap:12px;margin-top:32px;flex-wrap:wrap;justify-content:center;">
+        <a href="#register" class="btn">Register <span class="arrow">→</span></a>
+        <a href="schedule.html" class="btn ghost">See the agenda</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== ABSTRACT ============== -->
+  <section>
+    <div class="container">
+      <div class="prose abstract" id="abstract" style="max-width:64ch;margin:0 auto;">
+        <span class="eyebrow">Abstract</span>
+        <p style="margin-top:18px;">The promise of Agentic AI is seductive: autonomous systems that perceive, plan, and act, thereby reducing the friction between human intent and outcome. However, Agentic AI is arriving in Africa on someone else's terms.</p>
+        <p>Building agentic systems today almost inevitably means building on frontier models trained predominantly on Western data, optimized for Western languages, and aligned to Western values; yet deployed to negotiate, decide, and act on behalf of African users. Every API call, every default behavior, every quietly embedded assumption carries a worldview that was not built with Africa in mind.</p>
+        <p>This session takes a positional stance — through a startup pitch, four positional talks and a structured fishbowl dialogue, we pressure-test four tensions: cultural alignment, infrastructure dependency, value extraction, and the capability trap — working toward a community-driven position on sovereign agentic AI for Africa. Outputs will be compiled into an open preprint. <a href="#" class="read-more-link">Read more…</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== AT-A-GLANCE ============== -->
+  <section>
+    <div class="container">
+      <div class="glance">
+        <div><span class="k">Format</span><span class="v">Forums &amp; Dialogues</span></div>
+        <div><span class="k">Length</span><span class="v">90 minutes</span></div>
+        <div><span class="k">Venue</span><span class="v">DLI 2026</span></div>
+        <div><span class="k">Hosted by</span><span class="v">ML Collective</span></div>
+        <div><span class="k">Workshop output</span><span class="v">Open preprint</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="footer"></div>
+
+<style>
+.read-more-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--muted);
+  cursor: pointer;
+  letter-spacing: 0.01em;
+}
+.read-more-btn:hover { color: var(--purple); }
+.read-more-link { color: var(--purple); border-bottom: 1px solid color-mix(in oklab, var(--purple) 35%, transparent); margin-left: 4px; white-space: nowrap; }
+.read-more-link:hover { border-bottom-color: var(--purple); }
+.abstract-rest[hidden] { display: none; }
+.countdown {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin: 36px auto 6px;
+  padding: 12px 22px;
+  border: 1px solid var(--rule);
+  background: var(--paper-2);
+}
+.cd-item { display: flex; flex-direction: column; align-items: center; min-width: 44px; }
+.cd-num {
+  font-family: var(--font-serif);
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.cd-lbl {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.cd-sep {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  color: var(--muted-2);
+  line-height: 1;
+  padding-bottom: 18px;
+}
+.cd-target {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.glance {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
+}
+.glance > div { padding: 22px 20px; border-right: 1px solid var(--rule); display: flex; flex-direction: column; gap: 8px; }
+.glance > div:last-child { border-right: 0; }
+.glance .k { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.glance .v { font-family: var(--font-serif); font-size: 18px; line-height: 1.2; letter-spacing: -0.01em; }
+@media (max-width: 800px) {
+  .glance { grid-template-columns: 1fr 1fr; }
+  .glance > div { border-bottom: 1px solid var(--rule); }
+  .glance > div:nth-child(2n) { border-right: 0; }
+}
+</style>
+
+<script>
+  (function () {
+    const target = new Date("2026-08-06T09:00:00+02:00").getTime();
+    function tick() {
+      const now = Date.now();
+      let diff = Math.max(0, Math.floor((target - now) / 1000));
+      const d = Math.floor(diff / 86400); diff -= d * 86400;
+      const h = Math.floor(diff / 3600); diff -= h * 3600;
+      const m = Math.floor(diff / 60); const s = diff - m * 60;
+      const set = (k, v) => {
+        const el = document.querySelector(`[data-cd="${k}"]`);
+        if (el) el.textContent = String(v).padStart(2, "0");
+      };
+      set("d", d); set("h", h); set("m", m); set("s", s);
+    }
+    tick(); setInterval(tick, 1000);
+  })();
+</script>
+
+<script>
+  (function () {
+    const btn = document.querySelector(".read-more-btn");
+    const rest = document.getElementById("abstract-rest");
+    if (!btn || !rest) return;
+    btn.addEventListener("click", () => {
+      const open = !rest.hasAttribute("hidden");
+      if (open) {
+        rest.setAttribute("hidden", "");
+        btn.textContent = "Read more";
+        btn.setAttribute("aria-expanded", "false");
+      } else {
+        rest.removeAttribute("hidden");
+        btn.textContent = "Read less";
+        btn.setAttribute("aria-expanded", "true");
+      }
+    });
+  })();
+</script>
+
+<script src="chrome.js"></script>
+<script>renderChrome("index.html"); renderFooter();</script>
+<script src="tweaks.js"></script>
+</body>
+</html>

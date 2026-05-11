@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Organizers — Whose Intelligence?</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="chrome"></div>
+
+<main>
+  <section class="page-header">
+    <div class="page-header-inner">
+      <div>
+        <h1>Organizers</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1. Lead Organizers -->
+  <section>
+    <div class="container">
+      <div class="section-head"><h2 style="text-align: center;">Lead organizers</h2></div>
+      <div class="people-grid">
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Chisom Chibuike</h3><p class="aff">ML Collective · University of Nigeria</p></article>
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Ifihanagbara Olusheye</h3><p class="aff">University of the Witwatersrand</p></article>
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Honour-Jesus Bezaleel</h3><p class="aff">ML Collective · Ekiti State University</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Organizers -->
+  <section style="background:var(--paper-2);">
+    <div class="container">
+      <div class="section-head"><h2 style="text-align: center;">Organizers</h2></div>
+      <div class="people-grid people-2 centered">
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Busayo Awobade</h3><p class="aff">Intron Health</p></article>
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Fatimo Adebanjo</h3><p class="aff">ML Collective</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Workshop Chairs -->
+  <section>
+    <div class="container">
+      <div class="section-head"><h2 style="text-align: center;">Workshop chairs</h2></div>
+      <div class="people-grid">
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Steven Kolawole</h3><p class="aff">Carnegie Mellon University · Amazon Bedrock</p></article>
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Abraham Owodunni</h3><p class="aff">Ohio State University</p></article>
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Mardiyyah Oduwole</h3><p class="aff">ML Collective</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Advisors -->
+  <section style="background:var(--paper-2);">
+    <div class="container">
+      <div class="section-head"><h2 style="text-align: center;">Advisors</h2></div>
+      <div class="people-grid people-2 centered">
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Rosanne Liu</h3><p class="aff">Google DeepMind</p></article>
+        <article class="person"><div class="portrait-ph round"></div><h3 class="serif">Jason Yosinski</h3><p class="aff">OpenAI</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Volunteers -->
+  <section>
+    <div class="container">
+      <div class="section-head"><h2 style="text-align: center;">Volunteers</h2></div>
+      <ul class="volunteers">
+        <li><span class="n">Iremide Oyelaja</span><span class="a">Independent Researcher</span></li>
+        <li><span class="n">Kayode Makinde</span><span class="a">—</span></li>
+        <li><span class="n">Shiloh Oni</span><span class="a">Independent Researcher</span></li>
+        <li><span class="n">Emmanuel Idoko</span><span class="a">ML Collective · University of Lagos</span></li>
+        <li><span class="n">Yusuf Olaniyi</span><span class="a">Carnegie Mellon University, Africa</span></li>
+        <li><span class="n">Asama Temitope Omolere</span><span class="a">—</span></li>
+        <li><span class="n">Ayodeji Adesegun</span><span class="a">Independent Researcher</span></li>
+        <li><span class="n">Chialuka Onuoha</span><span class="a">Independent Researcher</span></li>
+        <li><span class="n">Ibukun Oduntan</span><span class="a">Independent Researcher</span></li>
+        <li><span class="n">Olamide Lawal</span><span class="a">Independent Researcher</span></li>
+        <li><span class="n">Nunsi Shaki</span><span class="a">—</span></li>
+        <li><span class="n">Kelechi Chibundu</span><span class="a">ML Collective · FUNAAB</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<div id="footer"></div>
+
+<style>
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 32px;
+}
+.section-head { grid-template-columns: 1fr !important; }
+.section-head h2 { margin: 0 auto; }
+.people-grid.people-2 { grid-template-columns: repeat(2, 1fr); max-width: 720px; }
+.people-grid.centered { margin-left: auto; margin-right: auto; }
+@media (max-width: 800px) { .people-grid, .people-grid.people-2 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 500px) { .people-grid, .people-grid.people-2 { grid-template-columns: 1fr; } }
+
+.person { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.person .portrait-ph { margin-bottom: 16px; width: 180px; max-width: 100%; aspect-ratio: 1/1; border-radius: 50%; }
+.person .portrait-ph::after { display: none; }
+.person h3 { font-size: 20px; letter-spacing: -0.01em; line-height: 1.15; margin: 4px 0 6px; }
+.person .aff { font-size: 13px; color: var(--muted); line-height: 1.4; margin: 0; }
+
+.volunteers { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 56px; border-top: 1px solid var(--ink); }
+@media (max-width: 700px) { .volunteers { columns: 1; } }
+.volunteers li {
+  display: flex; justify-content: space-between; gap: 16px;
+  padding: 14px 0; border-bottom: 1px solid var(--rule);
+  break-inside: avoid; font-size: 15px;
+}
+.volunteers .n { font-family: var(--font-serif); font-size: 17px; letter-spacing: -0.005em; }
+.volunteers .a { font-size: 12px; color: var(--muted); text-align: right; max-width: 26ch; font-family: var(--font-mono); letter-spacing: 0.02em; }
+</style>
+
+<script src="chrome.js"></script>
+<script>renderChrome("organizers.html"); renderFooter();</script>
+<script src="tweaks.js"></script>
+</body>
+</html>
