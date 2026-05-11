@@ -29,6 +29,7 @@ export const metadata: Metadata = {
   title: "Whose Intelligence? — Building Agentic AI in Africa · DLI 2026",
   description:
     "Building Agentic AI in Africa without frontier-model dependency. A workshop at Deep Learning Indaba 2026, hosted by ML Collective.",
+  icons: { icon: "/mlc.svg" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -44,9 +44,20 @@ export const ORGANIZER_GROUPS: PersonGroup[] = [
     title: "Lead organizers",
     columns: 3,
     members: [
-      { name: "Chisom Chibuike", affiliation: "ML Collective · University of Nigeria" },
-      { name: "Ifihanagbara Olusheye", affiliation: "University of the Witwatersrand", image: "/assets/images/organizers/ifihan.jpg" },
-      { name: "Honour-Jesus Bezaleel", affiliation: "ML Collective · Ekiti State University", image: "/assets/images/organizers/honour-jesus.jpg" },
+      {
+        name: "Chisom Chibuike",
+        affiliation: "ML Collective · University of Nigeria",
+      },
+      {
+        name: "Ifihanagbara Olusheye",
+        affiliation: "University of the Witwatersrand",
+        image: "/assets/images/organizers/ifihan.jpg",
+      },
+      {
+        name: "Honour-Jesus Bezaleel",
+        affiliation: "ML Collective · Ekiti State University",
+        image: "/assets/images/organizers/honour-jesus.jpg",
+      },
     ],
   },
   {
@@ -62,7 +73,10 @@ export const ORGANIZER_GROUPS: PersonGroup[] = [
     title: "Workshop chairs",
     columns: 3,
     members: [
-      { name: "Steven Kolawole", affiliation: "Carnegie Mellon University · Amazon Bedrock" },
+      {
+        name: "Steven Kolawole",
+        affiliation: "Carnegie Mellon University · Amazon Bedrock",
+      },
       { name: "Abraham Owodunni", affiliation: "Ohio State University" },
       { name: "Mardiyyah Oduwole", affiliation: "ML Collective" },
     ],
@@ -80,17 +94,52 @@ export const ORGANIZER_GROUPS: PersonGroup[] = [
     title: "Volunteers",
     columns: 3,
     members: [
-      { name: "Ayodeji Adesegun", affiliation: "Independent Researcher", image: "/assets/images/organizers/ayodeji.jpg" },
-      { name: "Iremide Oyelaja", affiliation: "Independent Researcher", image: "/assets/images/organizers/iremide.jpg" },
-      { name: "Shiloh Oni", affiliation: "Independent Researcher", image: "/assets/images/organizers/shiloh.jpg" },
-      { name: "Emmanuel Idoko", affiliation: "ML Collective · University of Lagos", image: "/assets/images/organizers/emmanuel.jpg" },
-      { name: "Yusuf Olaniyi", affiliation: "Carnegie Mellon University, Africa", image: "/assets/images/organizers/yusuf.jpg" },
-      { name: "Chialuka Onuoha", affiliation: "Independent Researcher", image: "/assets/images/organizers/chialuka.jpg" },
-      { name: "Ibukun Oduntan", affiliation: "Independent Researcher", image: "/assets/images/organizers/ibukun.png" },
-      { name: "Olamide Lawal", affiliation: "Independent Researcher", image: "/assets/images/organizers/olamide.jpg" },
+      {
+        name: "Ayodeji Adesegun",
+        affiliation: "Independent Researcher",
+        image: "/assets/images/organizers/ayodeji.jpg",
+      },
+      {
+        name: "Iremide Oyelaja",
+        affiliation: "Independent Researcher",
+        image: "/assets/images/organizers/iremide.jpg",
+      },
+      {
+        name: "Shiloh Oni",
+        affiliation: "Independent Researcher",
+        image: "/assets/images/organizers/shiloh.jpg",
+      },
+      {
+        name: "Emmanuel Idoko",
+        affiliation: "ML Collective · University of Lagos",
+        image: "/assets/images/organizers/emmanuel.jpg",
+      },
+      {
+        name: "Yusuf Olaniyi",
+        affiliation: "Carnegie Mellon University, Africa",
+        image: "/assets/images/organizers/yusuf.jpg",
+      },
+      {
+        name: "Chialuka Onuoha",
+        affiliation: "Independent Researcher",
+        image: "/assets/images/organizers/chialuka.jpg",
+      },
+      {
+        name: "Ibukun Oduntan",
+        affiliation: "Independent Researcher",
+        image: "/assets/images/organizers/ibukun.png",
+      },
+      {
+        name: "Olamide Lawal",
+        affiliation: "Independent Researcher",
+        image: "/assets/images/organizers/olamide.jpg",
+      },
       { name: "Kelechi Chibundu", affiliation: "ML Collective · FUNAAB" },
       { name: "Nunsi Shaki", affiliation: "\u2014" },
-      { name: "Asama Temitope Omolere", affiliation: "\u2014" },
+      {
+        name: "Asama Temitope",
+        affiliation: "Researcher · ML Collective",
+      },
       { name: "Kayode Makinde", affiliation: "\u2014" },
     ],
   },

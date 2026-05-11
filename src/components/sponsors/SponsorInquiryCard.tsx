@@ -6,7 +6,7 @@ export function SponsorInquiryCard() {
     <div className="grid grid-cols-1 md:grid-cols-[1fr_1.3fr] gap-8 md:gap-14 p-8 md:p-12 border border-rule bg-paper-2 items-start">
       <div>
         <Eyebrow num>Get in touch</Eyebrow>
-        <h2 className="mt-[14px] max-w-[22ch] font-serif text-[clamp(28px,3.4vw,44px)] leading-snug tracking-[-0.015em] m-0 font-normal">
+        <h2 className="mt-[14px] max-w-[22ch] leading-tight tracking-tight font-serif text-[clamp(28px,3.4vw,44px)] m-0 font-normal">
           Interested in sponsoring? Contact us.
         </h2>
         <p className="muted text-[15px] max-w-[46ch] mt-4 text-muted">

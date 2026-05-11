@@ -22,7 +22,7 @@ export function Footer() {
       <section className="bg-ink text-paper py-14 px-(--gutter)">
         <div className="container-site grid grid-cols-1 md:grid-cols-[1.6fr_1fr] gap-8 md:gap-12 items-center">
           <div className="flex flex-col items-start gap-5">
-            <h2 className="text-[clamp(24px,2.4vw,32px)] leading-snug m-0 font-serif font-normal text-paper max-w-[22ch]">
+            <h2 className="text-[clamp(24px,2.4vw,32px)] leading-tight tracking-tight m-0 font-serif font-normal text-paper max-w-[22ch]">
               Join <em className="italic text-purple-bright">ML Collective</em> to get started with your research career.
             </h2>
             <a
