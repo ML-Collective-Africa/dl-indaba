@@ -1,5 +1,6 @@
 import { PortraitPlaceholder } from "@/components/ui/PortraitPlaceholder";
 import type { Person } from "@/lib/data";
+import { asset } from "@/lib/path";
 
 interface PersonCardProps {
   person: Person;
@@ -10,7 +11,7 @@ export function PersonCard({ person }: PersonCardProps) {
     <article className="flex flex-col items-center text-center">
       {person.image ? (
         <img
-          src={person.image}
+          src={asset(person.image)}
           alt={person.name}
           className="mb-4 w-[180px] max-w-full aspect-square rounded-full object-cover"
         />
