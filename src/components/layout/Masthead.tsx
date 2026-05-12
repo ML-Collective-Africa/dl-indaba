@@ -1,19 +1,12 @@
 "use client";
 
-import { useRef, useEffect } from "react";
-import gsap from "gsap";
 import Link from "next/link";
 import { asset } from "@/lib/path";
 
 export function Masthead() {
-  const ref = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    gsap.fromTo(ref.current, { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.out" });
-  }, []);
 
   return (
-    <header ref={ref} className="opacity-0 border-b border-rule py-[22px] bg-paper">
+    <header className="border-b border-rule py-[22px] bg-paper">
       <div className="container-site flex items-center justify-between gap-6 flex-wrap">
         <div className="flex items-center gap-4">
           <Link href="/">
