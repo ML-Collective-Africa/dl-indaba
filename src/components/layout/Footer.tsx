@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 function XIcon() {
   return (
@@ -65,7 +64,7 @@ export function Footer() {
       <footer className="site border-t border-rule bg-paper py-7">
         <div className="container-site flex justify-between gap-6 flex-wrap font-mono text-xs uppercase text-muted tracking-[0.08em]">
           <span>Whose Intelligence? · A workshop · Deep Learning Indaba 2026</span>
-          <span>Hosted by ML Collective</span>
+          <span>Hosted by ML Collective (Africa)</span>
         </div>
       </footer>
     </>

@@ -216,6 +216,6 @@ export const WORKSHOP_EVENT = {
   format: "Forums & Dialogues",
   length: "90 minutes",
   venue: "DLI 2026",
-  hostedBy: "ML Collective",
-  output: "Open preprint",
+  hostedBy: "ML Collective (Africa)",
+  output: "Open Preprint",
 };

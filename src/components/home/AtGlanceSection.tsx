@@ -1,9 +1,9 @@
 import { WORKSHOP_EVENT } from "@/lib/data";
 
-const items: { key: string; value: string }[] = [
+const items: { key: string; value: string; href?: string }[] = [
   { key: "Format", value: WORKSHOP_EVENT.format },
   { key: "Length", value: WORKSHOP_EVENT.length },
-  { key: "Venue", value: WORKSHOP_EVENT.venue },
+  { key: "Venue", value: WORKSHOP_EVENT.venue, href: "https://deeplearningindaba.com" },
   { key: "Hosted by", value: WORKSHOP_EVENT.hostedBy },
   { key: "Workshop output", value: WORKSHOP_EVENT.output },
 ];
@@ -19,7 +19,13 @@ export function AtGlanceSection() {
               className="py-[22px] px-5 border-r border-rule last:border-r-0 max-md:border-b max-md:border-rule max-md:[&:nth-child(2n)]:border-r-0 flex flex-col gap-2"
             >
               <span className="font-mono text-xs tracking-[0.12em] uppercase text-muted">{item.key}</span>
-              <span className="font-serif text-lg leading-snug tracking-[-0.01em]">{item.value}</span>
+              {item.href ? (
+                <a href={item.href} target="_blank" rel="noopener" className="font-serif text-lg leading-snug tracking-[-0.01em] no-underline hover:underline">
+                  {item.value}
+                </a>
+              ) : (
+                <span className="font-serif text-lg leading-snug tracking-[-0.01em]">{item.value}</span>
+              )}
             </div>
           ))}
         </div>

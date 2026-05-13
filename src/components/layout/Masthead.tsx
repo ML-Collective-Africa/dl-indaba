@@ -29,7 +29,7 @@ export function Masthead() {
           </span>
         </div>
         <a
-          href="mailto:contact@mlcollective.org"
+          href="mailto:abraham.owodunni@mlcollective.org"
           className="font-mono text-xs tracking-[.06em] uppercase text-muted no-underline"
         >
           Contact →

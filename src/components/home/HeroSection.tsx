@@ -15,7 +15,7 @@ export function HeroSection() {
         <Countdown />
 
         <div className="flex gap-3 mt-8 flex-wrap justify-center">
-          <Button href="#register">
+          <Button href="https://docs.google.com/forms/d/e/1FAIpQLSeBEeqneY8Oe7r_9r5KwP1JG-xFn5t17AO0BDdxoK2rGihsNg/viewform?usp=dialog" target="_blank" rel="noopener">
             Register <span className="arrow">→</span>
           </Button>
           <Button href="/schedule" variant="ghost">
