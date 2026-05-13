@@ -19,7 +19,7 @@ export function SponsorInquiryCard() {
           <Button href="mailto:abraham.owodunni@mlcollective.org" className="justify-between w-full">
             Email us <span className="arrow">→</span>
           </Button>
-          <Button href="#" variant="ghost" className="justify-between w-full" target="_blank" rel="noopener">
+          <Button href="https://docs.google.com/presentation/d/15X7TlXGTHCv78WAerM_sXMICZ3JSpYO3qjlaiV_XCgs/edit?usp=sharing" variant="ghost" className="justify-between w-full" target="_blank" rel="noopener">
             View slide deck <span className="arrow">→</span>
           </Button>
         </div>
