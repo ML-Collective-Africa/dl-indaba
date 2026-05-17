@@ -50,13 +50,13 @@ export const ORGANIZER_GROUPS: PersonGroup[] = [
     members: [
       {
         name: "Chisom Chibuike",
-        affiliation: "ML Collective · University of Nigeria",
+        affiliation: "ML Collective · University of Cambridge",
         image: "/assets/images/organizers/chisom.png",
         website: "https://sites.google.com/view/chisom-chibuike",
       },
       {
         name: "Ifihanagbara Olusheye",
-        affiliation: "University of the Witwatersrand",
+        affiliation: "ML Collective · University of the Witwatersrand",
         image: "/assets/images/organizers/ifihan.jpg",
         website: "https://ifihan.com/",
       },
