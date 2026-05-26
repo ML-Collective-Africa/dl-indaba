@@ -179,7 +179,7 @@ export const ORGANIZER_GROUPS: PersonGroup[] = [
       },
       {
         name: "Kayode Makinde",
-        affiliation: "\u2014",
+        affiliation: "AI Engineer · Rio Eigen",
         image: "/assets/images/organizers/kayode.jpeg",
         linkedin: "https://www.linkedin.com/in/kayode-makinde-4b0b491ba/",
       },
@@ -191,7 +191,7 @@ export const ORGANIZER_GROUPS: PersonGroup[] = [
       },
       {
         name: "Nunsi Shaki",
-        affiliation: "\u2014",
+        affiliation: "ML Collective",
         image: "/assets/images/organizers/nunsi.jpeg",
         linkedin: "https://www.linkedin.com/in/nunsi-shiaki/"
       },
