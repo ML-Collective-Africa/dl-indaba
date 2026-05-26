@@ -1,17 +1,21 @@
-"use client";
+// "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 
 export function AbstractSection() {
-  const [expanded, setExpanded] = useState(false);
+  // const [expanded, setExpanded] = useState(false);
 
   return (
     <section>
       <div className="container-site">
         <div className="prose abstract max-w-[64ch] mx-auto text-justify">
           <Eyebrow>Abstract</Eyebrow>
-          <p className="mt-[18px]">
+          <p className="mt-[18px] text-muted">
+            Watch this space, more details will be updated soon.
+          </p>
+
+          {/* <p className="mt-[18px]">
             The promise of Agentic AI is seductive: autonomous systems that perceive, plan, and act, thereby reducing the
             friction between human intent and outcome. However, Agentic AI is arriving in Africa on someone else&apos;s
             terms.
@@ -109,7 +113,7 @@ export function AbstractSection() {
             className="read-more-btn bg-none border-0 p-0 font-inherit text-muted cursor-pointer tracking-[0.01em] hover:text-purple mt-4 block"
           >
             {expanded ? "Read less" : "Read more…"}
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
